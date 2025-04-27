@@ -1,42 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Demo Store</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo">Demo Store</div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Products</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+      <div class="logo">Demo Store</div>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Products</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </header>
     <main class="container">
-        <div class="tech-circle">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+      <div class="tech-circle">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+
+      <div class="list">
+        <div class="item active">
+          <div class="product-img">
+            <img src="./img/apple-watch.png" alt="Apple Watch" />
+          </div>
+          <div class="content">
+            <p class="product-tag">New Release</p>
+            <p class="product-name">Apple Watch Series 10</p>
+            <p class="description">
+              The most advanced smartwatch on the market. Complete health
+              monitoring, built-in GPS, high-resolution AMOLED display and
+              long-lasting battery. Perfect for keeping up with your active
+              lifestyle.
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
         </div>
-
-        <div class="list">
-            <div class="item active">
-                <div class="product-img">
-                    <img src="" alt="">
-                </div>
-            </div>
-            <div class="item">
-
-            </div>
-            <div class="item">
-
-            </div>
+        <div class="item">
+          <div class="product-img">
+            <img src="./img/air-pods.png" alt="Air Pods Max" />
+          </div>
+          <div class="content">
+            <p class="product-tag">Premium Sound</p>
+            <p class="product-name">Air Pods Max</p>
+            <p class="description">
+              Experience unparalleled sound with AirPods Max, where premium
+              design meets immersive audio. With active noise cancellation and
+              spatial audio, every note feels alive. Elevate your listening game
+              in style and comfort.
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
         </div>
+        <div class="item">
+          <div class="product-img">
+            <img src="./img/vision-pro.png" alt="Vision Pro" />
+          </div>
+          <div class="content">
+            <p class="product-tag">High Performance</p>
+            <p class="product-name">Vision Pro</p>
+            <p class="description">
+              Step into a new reality with Apple Vision Pro, blending
+              cutting-edge AR and VR for an unmatched immersive experience.
+              Seamless integration, stunning visuals, and intuitive controls
+              redefine how you connect and create. Discover a world where
+              imagination knows no bounds.
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="arrows">
+        <button class="arrow-btn" id="prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-caret-left-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"
+            />
+          </svg>
+        </button>
+        <button class="arrow-btn" id="next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-caret-right-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="indicators">
+        <div class="numbers">01</div>
+        <div class="dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
