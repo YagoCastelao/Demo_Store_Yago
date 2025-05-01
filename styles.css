@@ -15,7 +15,7 @@ body {
 
 header {
     position: fixed;
-    width: 90vh;
+    width: 100%;
     top: 0;
     padding: 20px 50px;
     display: flex;
